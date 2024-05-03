@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "speedy-slotz",
+    "slug": "speedy-slotz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.speedyslotztesting.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.speedyslotz.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification.png",
+          "color": "#ffffff",
+          "sounds": ["./assets/sounds/tone1.wav", "./assets/sounds/tone2.wav"]
+        }
+      ]
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "c8424cc9-efaa-4143-aff7-325ce49b4756"
+      }
+    }
+  }
+}
